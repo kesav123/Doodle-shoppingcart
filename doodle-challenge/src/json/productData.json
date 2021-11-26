@@ -1,0 +1,25 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "iPhone 8",
+			"category": "Phone",
+			"price": "5000",
+			"image": "https://www.91-img.com/gallery_images_uploads/3/d/3df5ca6a9b470f715b085991144a5b76e70da975.JPG?tr=h-550,w-0,c-at_max"
+		},
+		{
+			"id": 2,
+			"name": "MacBook",
+			"category": "laptop",
+			"price": "10000",
+			"image": "https://cdn.vox-cdn.com/thumbor/vGTTyiMMUHIHLs0FjoF0z99m6_E=/0x0:2040x1360/1200x800/filters:focal(895x304:1221x630)/cdn.vox-cdn.com/uploads/chorus_image/image/68592461/vpavic_4291_20201113_0366.0.0.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Canon",
+			"category": "camara",
+			"price": "500",
+			"image": "https://m.media-amazon.com/images/I/914hFeTU2-L._SL1500_.jpg"
+		}
+	]
+}

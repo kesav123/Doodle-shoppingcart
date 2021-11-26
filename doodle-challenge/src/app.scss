@@ -1,0 +1,108 @@
+.App {
+  &__split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    &.__left {
+      left: 0;
+      width: 70%;
+    }
+    &.__right {
+      right: 0;
+      width: 30%;
+    }
+  }
+}
+.product {
+  &__coloum {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  &__view {
+    margin: 0 -5px;
+    :after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  &__card {
+    border: solid 2px whitesmoke;
+    width: fit-content;
+    :hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    img {
+      width: 200px;
+      height: 150px;
+    }
+    &__info {
+      &__button-wrapper {
+        text-align: center;
+      }
+    }
+  }
+}
+.button {
+  background-color: #87cefa;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cart {
+  &__wrapper {
+    &__img {
+      img {
+        width: 40%;
+      }
+    }
+    &__name {
+      position: absolute;
+      right: 145px;
+    }
+    &__input {
+      position: relative;
+      left: 163px;
+      bottom: 124px;
+      width: 10%;
+      background-color: whitesmoke;
+      border: solid 1px black;
+    }
+    &__button {
+      &__remove {
+        float: left;
+      }
+    }
+  }
+}
+.button-1 {
+  width: fit-content;
+  background-color: #ff6666;
+  border-radius: 5px;
+}
+.button-2 {
+  width: fit-content;
+  background-color: green;
+  border-radius: 5px;
+}
+.cart__container__row__value {
+  h5 {
+    font-size: 24px;
+    border-bottom: 2px solid;
+    line-height: 35px;
+    border-image: linear-gradient(to right, blue 25%, whitesmoke 75%) 5;
+  }
+}
